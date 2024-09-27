@@ -1,4 +1,6 @@
-# kali bspwm setup## ⚒️ Installation
+# kali bspwm setup
+
+## ⚒️ Installation
 
 ```sh
 git clone --recursive https://github.com/qrxnz/kali-bspwm-setup  ~/.dotfiles &&\
