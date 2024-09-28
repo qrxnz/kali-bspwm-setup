@@ -35,6 +35,6 @@ cp ./target/release/catch ~/.local/bin/
 sudo chown $USERNAME:$USERNAME /opt/catch/
 sudo chown $USERNAME:$USERNAME /opt/catch/catch/
 
-cd ~/
+cd $HOME
 
 echo "Installation Completed!"
