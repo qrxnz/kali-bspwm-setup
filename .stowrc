@@ -1,3 +1,5 @@
 --target=~/.config
 --ignore=.stowrc
 --ignore=.editorconfig
+--ignore=README.md
+--ignore=setup.sh
