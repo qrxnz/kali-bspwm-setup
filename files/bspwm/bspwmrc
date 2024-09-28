@@ -27,7 +27,3 @@ feh --bg-fill ~/.dotfiles/kali-lincox-wallpapers/lincox6.png &
 
 # bar
 $HOME/.config/polybar/launch.sh &
-
-# keymap
-setxkbmap pl
-
