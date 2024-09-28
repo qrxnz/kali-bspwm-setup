@@ -4,7 +4,7 @@ sudo apt update && sudo apt upgrade -y
 
 sudo apt-get install -y wget curl git thunar stow neovim podman zoxide fzf \
 xsel xclip duf eza flameshot bspwm sxhkd polybar feh rofi kitty tmux picom \
-golang delve clang ccls gdb
+golang delve clang ccls gdb cargo
 
 curl -fsSL https://bun.sh/install | bash
 
@@ -23,3 +23,13 @@ stow files --adopt
 echo "source ~/.config/zshrc/zshrc" > ~/.zshrc
 
 echo "source-file ~/.config/tmux/tmux.conf" > ~/.tmux.conf
+
+mkdir /opt/catch/
+cd /opt/catch/
+git clone https://github.com/jazzpizazz/catch.git
+cargo build -r
+
+cd ~/
+
+
+echo "Installation Completed!"
