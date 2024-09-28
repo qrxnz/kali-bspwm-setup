@@ -29,8 +29,11 @@ echo "source-file ~/.config/tmux/tmux.conf" > ~/.tmux.conf
 
 sudo mkdir /opt/catch/
 cd /opt/catch/
-sudo git clone https://github.com/jazzpizazz/catch.git
+sudo git clone https://github.com/jazzpizazz/catch.git && cd catch
 sudo cargo build -r
+cp ./target/release/catch ~/.local/bin/
+sudo chown $USERNAME:$USERNAME /opt/catch/
+sudo chown $USERNAME:$USERNAME /opt/catch/catch/
 
 cd ~/
 
