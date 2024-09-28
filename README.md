@@ -11,7 +11,6 @@ chmod +x setup.sh &&\
 
 ## 🗒️ Credits
 
-
 ### 🎨 Inspiration
 
 I was inspired by:
