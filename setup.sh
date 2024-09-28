@@ -24,7 +24,7 @@ echo "source ~/.config/zshrc/zshrc" > ~/.zshrc
 
 echo "source-file ~/.config/tmux/tmux.conf" > ~/.tmux.conf
 
-mkdir /opt/catch/
+sudo mkdir /opt/catch/
 cd /opt/catch/
 git clone https://github.com/jazzpizazz/catch.git
 cargo build -r
