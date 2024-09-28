@@ -6,11 +6,14 @@ sudo apt-get install -y wget curl git thunar stow neovim podman zoxide fzf \
 xsel xclip duf eza flameshot bspwm sxhkd polybar feh rofi kitty tmux picom \
 golang delve clang ccls gdb cargo
 
+mkdir -p ~/.local/bin/
+
 curl -fsSL https://bun.sh/install | bash
 
 curl -sS https://starship.rs/install.sh | sh
 
 curl -sL https://raw.githubusercontent.com/iustin24/chameleon/master/install.sh | bash
+mv ./chameleon ~/.local/bin/
 
 sh <(curl -L https://nixos.org/nix/install) --no-daemon
 
@@ -26,10 +29,9 @@ echo "source-file ~/.config/tmux/tmux.conf" > ~/.tmux.conf
 
 sudo mkdir /opt/catch/
 cd /opt/catch/
-git clone https://github.com/jazzpizazz/catch.git
-cargo build -r
+sudo git clone https://github.com/jazzpizazz/catch.git
+sudo cargo build -r
 
 cd ~/
-
 
 echo "Installation Completed!"
