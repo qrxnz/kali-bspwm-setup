@@ -18,6 +18,7 @@ I was inspired by:
 - [ptrcnull](https://github.com/ptrcnull/dotfiles)
 - [omerxx](https://github.com/omerxx/dotfiles)
 - [AlvinPix](https://github.com/AlvinPix/bspwm)
+- [IogaMaster](https://github.com/IogaMaster/neovim)
 
 ### ❤️ Special thanks
 - To [Akwa](https://github.com/Ak-wa/kali-lincox-wallpapers) for the amazing wallpapers
