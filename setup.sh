@@ -3,7 +3,7 @@
 sudo apt update && sudo apt upgrade -y
 
 sudo apt-get install -y wget curl git thunar stow neovim podman zoxide fzf \
-xsel xclip duf eza flameshot bspwm sxhkd polybar feh rofi kitty tmux picom \
+xsel xclip duf eza bat flameshot bspwm sxhkd polybar feh rofi kitty tmux picom \
 golang delve clang ccls gdb cargo
 
 mkdir -p ~/.local/bin/
@@ -32,8 +32,8 @@ cd /opt/catch/
 sudo git clone https://github.com/jazzpizazz/catch.git && cd catch
 sudo cargo build -r
 cp ./target/release/catch ~/.local/bin/
-sudo chown $USERNAME:$USERNAME /opt/catch/
-sudo chown $USERNAME:$USERNAME /opt/catch/catch/
+sudo chown $USERNAME:$USERNAME /opt/catch
+sudo chown $USERNAME:$USERNAME /opt/catch/catch
 
 cd $HOME
 
