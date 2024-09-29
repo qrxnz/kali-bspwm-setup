@@ -21,4 +21,4 @@ I was inspired by:
 - [IogaMaster](https://github.com/IogaMaster/neovim)
 
 ### ❤️ Special thanks
-- To [Akwa](https://github.com/Ak-wa/kali-lincox-wallpapers) for the amazing wallpapers
+To [Akwa](https://github.com/Ak-wa/kali-lincox-wallpapers) for the amazing wallpapers
