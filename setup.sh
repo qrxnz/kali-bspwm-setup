@@ -12,9 +12,6 @@ curl -fsSL https://bun.sh/install | bash
 
 curl -sS https://starship.rs/install.sh | sh
 
-curl -sL https://raw.githubusercontent.com/iustin24/chameleon/master/install.sh | bash
-mv ./chameleon ~/.local/bin/
-
 sh <(curl -L https://nixos.org/nix/install) --no-daemon
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
