@@ -24,14 +24,6 @@ echo "source ~/.config/zshrc/zshrc" > ~/.zshrc
 
 echo "source-file ~/.config/tmux/tmux.conf" > ~/.tmux.conf
 
-sudo mkdir /opt/catch/
-cd /opt/catch/
-sudo git clone https://github.com/jazzpizazz/catch.git && cd catch
-sudo cargo build -r
-cp ./target/release/catch ~/.local/bin/
-sudo chown $USER:$USER /opt/catch
-sudo chown $USER:$USER /opt/catch/catch
-
 cd $HOME
 
 echo "Installation Completed!"
